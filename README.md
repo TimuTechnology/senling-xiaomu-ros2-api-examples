@@ -352,6 +352,7 @@ Proprietary License – All rights reserved. See LICENSE file for details.
 
 - **Official Website:** [https://store.timuai.com](https://store.timuai.com)
 - **Email Support:** [wangjing@timuai.com](mailto:wangjing@timuai.com)
+- **Discord:** [https://discord.gg/ZczdPdmmrK](https://discord.gg/ZczdPdmmrK)
 
 ---
 
