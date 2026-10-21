@@ -21,6 +21,7 @@ Official API documentation and ready-to-run demo codes for **Senling XiaoMu Codi
 - **ROS 2 (Iron) Support** – Complete message interface for sensor data and motion control
 - **Open Hardware Interfaces** – Exposed hardware interfaces for custom sensors/actuators
 - **Offline Edge AI** – On-device NPU for edge AI inference, no cloud dependency
+- **Raw Hardware Access** – Direct access to camera and microphone for custom AI pipelines
 
 ---
 
@@ -61,6 +62,19 @@ XiaoMu communicates through ROS 2 topics. Subscribe to sensor data or publish co
 | `xiaomu_move.py` | Motion control: nod, shake head, wave |
 | `xiaomu_chat.py` | Full interaction: speech, motion, touch |
 | `xiaomu_vision.py` | Face emotion and object recognition |
+| **`hardware_raw_demo.py`** | **Direct raw camera & microphone access (no network transmission)** |
+
+---
+
+## 🎥 Raw Hardware Access
+
+For developers who want to build their own AI pipelines (e.g., running a local AI on a separate computer), we provide `hardware_raw_demo.py` which captures **raw camera frames and microphone audio directly from the hardware** on XiaoMu's Linux system.
+
+- **No network transmission is included** — you can decide how to stream or process the data (TCP, WebSocket, MQTT, etc.).
+- **Camera**: Captured via `OpenCV`, typically mapped to `/dev/video0` or `/dev/video2`.
+- **Microphone**: Captured via `sounddevice` at 16 kHz, mono.
+
+> **Note**: This script is provided as a reference for local hardware access. You can integrate it into your own bridge/client to send data to a Windows/macOS/Linux host.
 
 ---
 
