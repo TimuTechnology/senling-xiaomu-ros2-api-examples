@@ -1,4 +1,4 @@
-#Xiaomu supports the use of the Pygame framework for customizing screen display content. #For users who need to customize the screen display, please contact us to obtain sudo #permissions (subject to compliance with our relevant confidentiality agreement). If you #prefer to use other UI frameworks, you may install the relevant third-party libraries #on your own after obtaining sudo permissions.
+#Xiaomu supports the use of the Pygame framework for customizing screen display content. If you #prefer to use other UI frameworks, you may install the relevant third-party libraries #on your own.
 #Since screen display content varies significantly among different users, this sample code is provided primarily for reference purposes.
 #
 import rclpy
