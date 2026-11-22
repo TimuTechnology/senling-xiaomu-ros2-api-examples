@@ -356,9 +356,7 @@ ros2 launch launch/my_custom_launch.py
 
 ## 📄 License
 
-Proprietary License – All rights reserved. See LICENSE file for details.
-
-**Copyright & Confidentiality:** This repository contains proprietary information of Timu Technology. Unauthorized reproduction, distribution, or use is strictly prohibited.
+See LICENSE file for details.
 
 ---
 
